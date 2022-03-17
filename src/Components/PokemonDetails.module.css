@@ -1,0 +1,59 @@
+.detailsWrapper {
+  margin: 1rem auto;
+  background-color: white;
+  border-radius: 0.5rem;
+  display: flex;
+  flex-direction: row;
+  height: fit-content;
+}
+
+.splitViewContainer {
+  width: 20rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.entryWrapper {
+  margin: 1rem;
+  padding: 0.5rem 1rem;
+  border-radius: 0.5rem;
+  background-color: #DEE9FC;
+}
+
+.imageWrapper {
+  background-color: #DEE9FC;
+  border-radius: 100%;
+  margin: 1rem;
+  display: flex;
+  height: 16rem;
+  width: 16rem;
+}
+
+.detailImage {
+  width: 16rem;
+  margin: auto auto;
+}
+
+.title {
+  margin: 0;
+  text-align: center;
+}
+
+.description {
+  font-weight: 500;
+  font-size: large;
+}
+
+.typeWrapper {
+  display: flex;
+  justify-content: space-around;
+}
+
+.type {
+  padding: 0.5rem 1rem;
+  background-color: white;
+  border-radius: 0.5rem;
+  margin-right: 0.5rem;
+}
+

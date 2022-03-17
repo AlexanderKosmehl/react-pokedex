@@ -1,0 +1,39 @@
+.tileContainer {
+  margin: 0.5rem;
+  padding: 0.5rem;
+  display: flex;
+  flex-direction: row;
+  border-radius: 0.5rem;
+}
+
+.tileContainer:hover {
+  background-color: #A6C4F7;
+}
+
+.selected {
+  background-color: #B9D0F8;
+}
+
+.imageWrapper {
+  background-color: #DEE9FC;
+  border-radius: 100px;
+  margin-right: 2rem;
+  margin-left: 1rem;
+  height: 8rem;
+  width: 8rem;
+}
+
+.pokemonImage {
+  height: 8rem;
+}
+
+.textWrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  padding: 1.5rem 0;
+}
+
+.tileText {
+  margin: 0
+}
