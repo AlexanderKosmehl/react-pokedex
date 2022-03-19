@@ -25,6 +25,7 @@
 
 .pokemonImage {
   height: 8rem;
+  image-rendering: pixelated;
 }
 
 .textWrapper {

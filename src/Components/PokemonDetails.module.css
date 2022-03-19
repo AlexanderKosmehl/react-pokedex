@@ -33,6 +33,7 @@
 .detailImage {
   width: 16rem;
   margin: auto auto;
+  image-rendering: pixelated;
 }
 
 .title {
